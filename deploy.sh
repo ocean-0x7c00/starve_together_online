@@ -16,7 +16,9 @@ echo `pwd`
 cp $git_path/dedicated_server_mods_setup.lua $mod_path
 cp $git_path/modoverrides.lua  $master_mod_path $caves_mod_path
 
-
+cat $master_mod_path
+echo '============================================================'
+cat $caves_mod_path
 #5.停止现有服务
 
 
