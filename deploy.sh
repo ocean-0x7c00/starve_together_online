@@ -20,6 +20,6 @@ cat $master_mod_path
 echo '============================================================'
 cat $caves_mod_path
 #5.停止现有服务
-
+# force_install_dir /home/ocean/dstserver
 
 #6.启动新服务

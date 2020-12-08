@@ -16,7 +16,7 @@
 
     -- ServerModSetup("478005098") -- Craftable Gears
     -- ServerModSetup("347079953") -- Display Food Values
-    -- ServerModSetup("462434129") -- Restart(重生)
+    ServerModSetup("462434129") -- Restart(重生)
     -- ServerModSetup("363112314") -- Map Revealer for DST
     -- ServerModSetup("553508827") -- DST Wilson's House
 

@@ -23,5 +23,25 @@ return {
     },
     enabled=true 
   },
-  ["workshop-541537428"]={ configuration_options={  }, enabled=true } 
+  ["workshop-541537428"]={ configuration_options={  }, enabled=true } ,
+  ["workshop-462434129"]={
+    configuration_options={
+      MOD_RESTART_ALLOW_KILL=true,
+      MOD_RESTART_ALLOW_RESTART=true,
+      MOD_RESTART_ALLOW_RESURRECT=true,
+      MOD_RESTART_CD_BONUS=0,
+      MOD_RESTART_CD_KILL=3,
+      MOD_RESTART_CD_MAX=0,
+      MOD_RESTART_CD_RESTART=5,
+      MOD_RESTART_CD_RESURRECT=7,
+      MOD_RESTART_FORCE_DROP_MODE=0,
+      MOD_RESTART_IGNORING_ADMIN=true,
+      MOD_RESTART_MAP_SAVE=2,
+      MOD_RESTART_RESURRECT_HEALTH=0,
+      MOD_RESTART_TRIGGER_MODE=1,
+      MOD_RESTART_WELCOME_TIPS=true,
+      MOD_RESTART_WELCOME_TIPS_TIME=6 
+    },
+    enabled=true 
+  } 
 }
