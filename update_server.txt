@@ -1,9 +1,0 @@
-@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
-@NoPromptForPassword 1
-login <username> <password>
-//若所下载的服务端无须登录则使用anonymous登录
-//login anonymous 
-force_install_dir /home/ocean/dstserver
-//设置安装地址 ↑
-app_update 740 validate
-quit
