@@ -4,7 +4,14 @@ cd /home/ocean/steamcmd
 echo 'update success.......'
 
 cd /home/ocean/dstserver/bin/
-nohup /home/ocean/dstserver/bin/master_start.sh > /home/ocean/log/master_start.log 2>&1& echo $! > /home/ocean/log/master_start.pid
-nohup /home/ocean/dstserver/bin/cave_start.sh > /home/ocean/log/cave_start.log 2>&1& echo $! > /home/ocean/log/cave_start.pid
+screen -S master
+./master_start.sh
+ctrl-a d
+
+screen -S caves
+./cave_start.sh
+ctrl-a d
+
 
 echo 'start success........'
+
